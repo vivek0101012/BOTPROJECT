@@ -6,13 +6,13 @@
 
     "description": "demo node project",
 
-    "main": "3index.js",
+    "main": "4botproject.js",
 
     "scripts": {
 
         "dev": "nodemon index.js",
 
-        "start": "node index.js"
+        "start": "node 4botproject.js"
 
     },
 

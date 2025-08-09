@@ -1,24 +1,16 @@
-const express= require("express")
-const bot= require('./botproject')
+const express = require("express");
+const bot = require("./botproject");
 
-const app= express();
+const app = express();
 
+app.get("/", (req, res) => {
+  res.send("Bot is running");
+});
 
+bot.launch();
 
+const PORT = 3000;
 
-
-
-app.get("/",(req,res)=>{
-
-
- 
-    return res.send("bot is running ")
-
-})
-
-bot.launch()
-
-
-app.listen(3000,()=>{
-    console.log("server started ")
-})
+app.listen(PORT, () => {
+  console.log(`Server started on port ${PORT}`);
+});
