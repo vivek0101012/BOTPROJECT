@@ -1,7 +1,5 @@
 {
 
-    "type": "module",
-
     "name": "3firstnoteproject",
 
     "version": "1.0.0",
@@ -12,7 +10,7 @@
 
     "scripts": {
 
-        "dev": "nodemon 4botproject.js",
+        "dev": "nodemon index.js",
 
         "start": "node index.js"
 
@@ -27,6 +25,8 @@
         "axios": "^1.10.0",
 
         "dotenv": "^17.2.0",
+
+        "express": "^5.1.0",
 
         "nodemon": "^3.1.10",
 

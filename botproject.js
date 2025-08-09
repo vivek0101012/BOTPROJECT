@@ -8,11 +8,9 @@
 
 // read in detail -- at npm telegraf
 
-import { Telegraf } from "telegraf";
-import axios, { Axios } from "axios";
-
-
-import 'dotenv/config';// Loads .env file values into process.env
+const { Telegraf } = require("telegraf");
+const axios = require("axios");
+require('dotenv').config();// Loads .env file values into process.env
 
 // Read environment variables
 const BOT_TOKEN = process.env.BOT_TOKEN;
@@ -71,4 +69,6 @@ ctx.reply(weatherInfo, { parse_mode: 'Markdown' });
 
 })
 
-bot.launch()
+
+
+module.exports=bot
