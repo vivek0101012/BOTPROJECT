@@ -12,7 +12,7 @@
 
         "dev": "nodemon index.js",
 
-        "start": "node 4botproject.js"
+        "start": "node index.js"
 
     },
 
