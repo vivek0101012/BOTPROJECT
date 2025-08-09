@@ -6,7 +6,7 @@
 
     "description": "demo node project",
 
-    "main":"index.js",
+    "main": "4botproject.js",
 
     "scripts": {
 
