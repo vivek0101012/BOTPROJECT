@@ -1,18 +1,18 @@
 {
 
-    "name": "3firstnoteproject",
+    "name": "firstnoteproject",
 
     "version": "1.0.0",
 
     "description": "demo node project",
 
-    "main": "4botproject.js",
+    "main":"index.js",
 
     "scripts": {
 
         "dev": "nodemon index.js",
 
-        "start": "node 4botproject.js"
+        "start": "node index.js"
 
     },
 
